@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-all-css": "node-sass scss -o css/main.css"
+    "build-all-css": "node-sass scss -o css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-all-css\""
   },
   "author": "",
   "license": "ISC",
